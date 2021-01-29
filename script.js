@@ -17,8 +17,8 @@ function recalculerTVA() {
 	var div = document.querySelector('#texte');
 	
 	div.innerHTML = '<p>Montant Hors Taxes : <strong>' + montant_hors_taxes + '€</strong></p>';
-	div.innerHTML += '<p>Montant TVA : <strong>' + montant_tva + '€</strong> avec un taux égal à <strong>' + 
-		Math.round(taux_tva) + '%</strong></p>';
+	div.innerHTML += '<p>Montant TVA : <strong>' + montant_tva + '€</strong> avec un taux égal à <strong>' +
+		taux_tva + '%</strong></p>';
 	div.innerHTML += '<p>Montant TTC : <strong>' + montant_ttc + '€</strong></p>';
 }
 
