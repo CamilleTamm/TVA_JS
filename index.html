@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+
+  <title>Calcul TVA</title>
+</head>
+
+<body style="background:#5DADE2;">
+
+	<center><h2 style="color:white;">Calculer une TVA</h2></center>
+	
+	<div>
+		<span style="text-align:left;">Montant Hors Taxes</span>
+		<span style="text-align:center;">Montant TVA</span>
+		<span style="text-align:right;">Montant TTC</span>
+	</div>
+
+	<hr>
+	
+	<div>
+		<input type="text" value="2000" style="text-align:center;" id="montant_ht">
+		+
+		<input type="text" value="160" style="text-align:center;" id="montant_tva">
+		=
+		<input type="text" value="2160" style="text-align:center;" id="montant_ttc">
+	</div>
+	
+	<hr>
+	
+	<div>
+		<center>
+			<h5>Taux TVA</h5>
+			<input type="text" value="8.5%" style="text-align:center;" id="taux_tva">
+		</center>
+	</div>
+	
+	<hr>
+	
+	<div>
+		<button type="button">20%</button>
+		<button type="button">10%</button>
+		<button type="button">8.5%</button>
+		<button type="button">7%</button>
+		<button type="button">5.5%</button>
+		<button type="button">19.6%</button>
+	</div>
+	
+	<hr>
+	
+	<div id="texte">
+		<p>Montant Hors Taxes : <strong>2000€</strong></p>
+		<p>Montant TVA : <strong>160€</strong> avec un taux égal à <strong>8%</strong></p>
+		<p>Montant TTC : <strong>2160€</strong></p>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
